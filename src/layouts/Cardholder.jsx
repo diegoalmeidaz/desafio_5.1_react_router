@@ -13,7 +13,7 @@ function Cardholder() {
     <div className="grid xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 p-4">
       <Producto
         nombre="EL OSO SUCIO"
-        descripcion="Los iconos de la ciudad no solo se ven mirando para el frente, sino que para abajo hay un mundo por descubrir."
+        descripcion="Los iconos de la ciudad no solo se ven mirando para el frente, sino que para abajo también ... y hay un mundo por descubrir."
         productDetail="Marco Negro 50 x 40 | Cristal Polarizado | Despacho Incluido."
         precio="69.990"
         stock="6 Unidades"
