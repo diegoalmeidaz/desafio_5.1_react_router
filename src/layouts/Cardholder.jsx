@@ -6,15 +6,26 @@ import SP1 from "../assets/SaoPaulo1.png";
 import LA1 from "../assets/LA1.png";
 import LA2 from "../assets/LA2.png";
 import CH1 from "../assets/Chicago1.png"
+import BRL1 from "../assets/Berlin1.png"
 
 function Cardholder() {
   return (
     <div className="grid xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 p-4">
       <Producto
-        nombre="GRAFFITI BROOKLYN"
-        descripcion="Composición de graffiti Neo Yorkino del barrio de Brooklyn."
+        nombre="EL OSO SUCIO"
+        descripcion="Los iconos de la ciudad no solo se ven mirando para el frente, sino que para abajo hay un mundo por descubrir."
         productDetail="Marco Negro 50 x 40 | Cristal Polarizado | Despacho Incluido."
         precio="69.990"
+        stock="6 Unidades"
+        img={BRL1}
+        alt="brl1"
+        tags=" BERLIN | Black & White | GERMANY | Ground Art "
+      />
+      <Producto
+        nombre="GRAFFITI BROOKLYN"
+        descripcion="Composición de graffiti Neo Yorkino del barrio de Brooklyn.."
+        productDetail="Marco Negro 50 x 40 | Cristal Polarizado | Despacho Incluido."
+        precio="60.990"
         stock="6 Unidades"
         img={NY1}
         alt="ny1"
