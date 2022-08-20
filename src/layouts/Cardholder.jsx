@@ -19,7 +19,7 @@ function Cardholder() {
         stock="6 Unidades"
         img={BRL1}
         alt="brl1"
-        tags=" BERLIN | Black & White | GERMANY | Ground Art "
+        tags=" Berlin | Black & White | GERMANY | Ground Art "
       />
       <Producto
         nombre="GRAFFITI BROOKLYN"
