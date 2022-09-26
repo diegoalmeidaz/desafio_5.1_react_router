@@ -1,3 +1,13 @@
+# A Updated version of a first version store, which includes routing handling. On this version, you will be able to navigate through a new "home section", the gallery section, and a new contact section. A new release will be on the works, which will have dynamic content applied. 
+
+# Check the project on GitHub: 
+https://github.com/diegoalmeidaz/desafio_5.1_react_router
+
+# Check the project running on netlify: 
+https://legendary-gumdrop-e54b61.netlify.app
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
