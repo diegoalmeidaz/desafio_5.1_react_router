@@ -2,7 +2,7 @@
 function Foot () {
     return (
     
-    <footer className="bg-slate-200 text-black p-3 mt-4 text-center"> 
+    <footer className="bg-slate-200 text-black p-3 mt-0 text-center"> 
         Dieganz & Co.
     </footer>
     )
