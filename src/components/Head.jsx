@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Link } from "react-router-dom"
 
 function BasicExample() {
   return (
@@ -11,19 +11,10 @@ function BasicExample() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/cardholder">Galería Completa</Nav.Link>
-            <Nav.Link to='/contacto' href="/contacto">Contacto</Nav.Link>
-            <NavDropdown title="Ver Más" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/*">Colecciones</NavDropdown.Item>
-              <NavDropdown.Item href="/*">
-                Paises & Monumentos
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/*">Promociones</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="/*">
-                Conoce a nuestros fotografos
-              </NavDropdown.Item>
-            </NavDropdown>
+            <Link className = 'nav-link' to="/cardholder">Galería Completa</Link>
+            <Link className='nav-link' to='/contacto' href="/contacto">Contacto</Link>
+            <Link className='nav-link' to='/*' href="/contacto">Promociones</Link>
+            
           </Nav>
         </Navbar.Collapse>
       </Container>
